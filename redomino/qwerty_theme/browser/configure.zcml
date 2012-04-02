@@ -1,0 +1,55 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="redomino.qwerty_theme">
+
+  <interface
+      interface=".interfaces.IRedominoThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="query_theme"
+      />
+
+  <!--CUSTOM FOOTER -->  
+  <browser:viewlet
+      name="plone.footer"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="footer.pt"
+      layer=".interfaces.IRedominoThemeSpecific"
+      permission="zope2.View"
+      />
+
+
+  <!--CUSTOM COLOPHON -->
+  <browser:viewlet
+      name="plone.colophon"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="colophon.pt"
+      layer=".interfaces.IRedominoThemeSpecific"
+      permission="zope2.View"
+      />
+
+  <!-- Zope 3 browser resources -->
+
+  <!-- Resource directory for images
+    See redomino/qwerty_theme/browser/images/README.txt
+    for more information about registering images as Zope 3 browser
+    resources.
+  -->
+  <browser:resourceDirectory
+      name="redomino.qwerty_theme.images"
+      directory="images"
+      layer=".interfaces.IRedominoThemeSpecific"
+      />
+
+  <!-- Resource directory for stylesheets
+    See redomino/qwerty_theme/browser/stylesheets/README.txt
+    for more information about registering stylesheets as Zope 3 browser
+    resources.
+  -->
+  <browser:resourceDirectory
+      name="redomino.qwerty_theme.stylesheets"
+      directory="stylesheets"
+      layer=".interfaces.IRedominoThemeSpecific"
+      />
+
+</configure>

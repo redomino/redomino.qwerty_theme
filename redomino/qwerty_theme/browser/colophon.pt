@@ -1,0 +1,11 @@
+<div id="portal-colophon"
+     metal:define-macro="colophon"
+     i18n:domain="plone">
+<metal:slot define-slot="colophon" />
+<div class="colophonWrapper">
+    <div tal:replace="structure here/colophon-text/getText|nothing" />
+    <div class="made-in">
+        made in <a href="http://redomino.com" target="_blank" class="redomino">redomino</a>
+    </div>
+</div>
+</div>

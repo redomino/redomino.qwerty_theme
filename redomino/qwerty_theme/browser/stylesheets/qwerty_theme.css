@@ -1,0 +1,413 @@
+/* uncomment the below selector to get a fixed-width layout. *
+ * 60em is equivalent to 960px in this case, and every       *
+ * grid cell will be 40px with 10px padding.                 */
+
+    #content a:link,a:link, a:visited { color: #960224 !important; }
+    
+div.width-1\:4 {
+    width: 27.75%;
+}
+
+div.position-1\:4 {
+    margin-left: -69%;
+}
+
+.black {
+    background-color: #000;
+}
+
+div#portal-column-two.width-1\:4 {
+    width: 21%;
+}
+
+div#portal-column-two.position-3\:4 {
+   margin-left: -22%;
+}
+
+div.width-3\:4 {
+    width: 67.75%;
+}
+
+div.width-full {
+    width: 100%;
+}
+
+div.position-0 {
+    margin-left: -100%;
+}
+
+div#portal-column-content.width-full {
+    width: 96.75%;
+}
+
+div#portal-column-content.position-0,
+div#portal-column-one.position-0 {
+    margin-left: -97.87%;
+}
+
+
+#visual-portal-wrapper-container {
+    background: rgb(168,3,41);
+    background: -moz-linear-gradient(top,  rgba(168,3,41,1) 0%, rgba(110,0,25,1) 160px, rgba(168,3,41,1) 160px, rgba(110,0,25,1) 210px, rgba(255,255,255,1) 210px);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(168,3,41,1)), color-stop(160px,rgba(110,0,25,1)), color-stop(160px,rgba(168,3,41,1)), color-stop(210px,rgba(110,0,25,1)), color-stop(210px,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
+    background: -o-linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
+    background: -ms-linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
+    background: linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
+}
+
+.no-cssgradients #visual-portal-wrapper-container {
+    background: url('++resource++redomino.qwerty_theme.images/header-bg.png') repeat-x top left #fff;
+}
+
+#visual-portal-wrapper {
+    width: 990px;
+    margin: 0 auto;
+
+}
+
+h1.documentFirstHeading, h2 {
+    color: #8a2337;
+}
+
+#portal-top {
+    background: url('../texture-header.png') repeat-x top center transparent;
+}
+
+#portal-top .slide-img {
+    text-align: center;
+    margin-top: -8px;
+/*
+    margin-left: -34px;
+    margin-right: -2px;
+*/
+}
+
+#portal-top .slide-img .slide-gradient {
+    height: 189px;
+    background: url('++resource++redomino.qwerty_theme.images/gradient-slide.png') repeat-y center transparent;
+}
+ 
+.template-home_view #portal-top .slide-gradient {
+    height: 299px;
+    background: url('++resource++redomino.qwerty_theme.images/gradient-slide.png') repeat-y center transparent;
+    position: relative;
+    width: 100%;
+    margin-top: -299px;
+}
+
+.template-home_view #portal-breadcrumbs {
+    display: none;
+}
+
+.box-container .box {
+    border: 1px solid #960224;
+    float: left;
+    width: 294px;
+    margin: 8px;
+    padding: 2px;
+}
+
+.box-container .box .boxtext {
+    border: 1px solid #960224;
+    padding: 10px;
+    color: #5b5b5b;
+    font-size: 13px;
+    line-height: 20px;
+    min-height: 120px;
+}
+
+.box-container .box .boxtext h3 {
+    font-weight: normal;
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.box-container .box .boxtext a {
+    display: block;
+    float: right;
+    color: #960224;
+}
+
+.box-container .box .boxtext .image-left {
+    margin: 0;
+    border: 0;
+}
+
+.last_news_box {
+    font-weight: bold;
+    color: #5b5b5b;
+    padding: 15px 10px;
+    border-top: 2px solid #960224;
+    border-bottom: 2px solid #960224;
+}
+
+.template-home_view #content {
+    border-bottom: 2px solid #960224;
+}
+
+#portal-header {
+    width: 990px;
+    margin: 0 auto;
+}
+
+a#portal-logo {
+    position: absolute;
+}
+
+#portal-searchbox {
+}
+
+#portal-globalnav {
+    background: transparent;
+    margin-top: 164px;
+    padding-bottom: 1px;
+}
+
+#portal-globalnav li a {
+    background: url('++resource++redomino.qwerty_theme.images/separatore.png') no-repeat center left transparent;
+    border: none;
+    padding: 13px 10px;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+    color: #fff !important;
+}
+
+#portal-globalnav li.selected a,
+#portal-globalnav li.selected a:hover,
+#portal-globalnav li a:hover {
+    background: url('++resource++redomino.qwerty_theme.images/separatore.png') no-repeat center left transparent;
+    color: #fff;
+}
+
+#portal-globalnav li:first-child a,
+#portal-globalnav li:first-child a:hover {
+    background-image: none;
+}
+
+#portal-columns {
+    margin-top: -30px;
+    padding-top: 22px;
+    background: url('++resource++redomino.qwerty_theme.images/background-box.png') no-repeat center top transparent;
+}
+
+#content-core li,
+dl.portlet li {
+    background: url('++resource++redomino.qwerty_theme.images/dot.png') no-repeat 0px 6px transparent;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+dl.portlet dt.portletHeader {
+    background: url('++resource++redomino.qwerty_theme.images/gradient-menu-3livello.jpg') repeat-x top left #fff;
+    color: #333;
+    font-size: 15px;
+}
+
+.portlet.portletNavigationTree {
+
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    border: 1px solid #dedede;
+    background: url('++resource++redomino.qwerty_theme.images/gradient-menu-3livello.jpg') repeat-x top left #fff;
+    margin-bottom: 1px;
+    padding: 0;
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem a {
+    font-size: 13px;
+    color: #333 !important;
+    text-transform: uppercase;
+    padding: 2px 0 ;
+    padding-left: 10px;
+    background: url('++resource++redomino.qwerty_theme.images/gradient-menu-3livello.jpg') repeat-x top left #f1f1f1;
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItemInPath a {
+    color: #960224 !important;
+}
+
+dl.portlet ul.navTreeLevel1 > .navTreeItem a {
+    color: #666 !important;
+    font-size: 100%;
+    background: #fff;
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+    background-image: none;
+    margin-bottom: 1px;
+}
+
+dl.portlet ul.navTreeLevel2 > .navTreeItem a {
+    background: url('++resource++redomino.qwerty_theme.images/gradient-menu-3livello.jpg') repeat-x top left #f1f1f1; 
+}
+
+dl.portlet ul.navTree a.navTreeCurrentItem {
+    background: #960224 !important;
+    border-left: 0;
+    color: #fff !important;
+    margin: 0;
+}
+
+dl.portlet ul.navTreeLevel0 .navTreeTopNode a {
+    color: #960224 !important;
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+    padding-left: 0px;
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem a {
+    padding-left: 20px;
+}
+
+dl.portlet ul.navTreeLevel2 .navTreeItem a {
+    padding-left: 30px;
+}
+
+dl.portlet ul.navTreeLevel3 .navTreeItem a {
+    padding-left: 40px;
+}
+
+dl.portlet ul.navTreeLevel4 .navTreeItem a {
+    padding-left: 50px;
+}
+
+
+
+#portal-footer {
+    background: url('++resource++redomino.qwerty_theme.images/footer.png') repeat-x left top #fcfcfc;
+    width: 980px;
+    margin: 0 auto;
+}
+
+#portal-footer table {
+    color: #333;
+    padding: 20px 0;
+}
+
+#portal-footer table td {
+    color: #333;
+    font-size: 13px;
+    border-left: 1px solid #d5d5d5;
+    padding: 0 60px;
+}
+
+#portal-footer table td a {
+    color: #333 !important;
+}
+
+#portal-footer table td:first-child {
+    border: none;
+    padding-left: 10px;
+}
+
+#portal-footer table td h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#portal-colophon {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+/*    background: url('++resource++redomino.qwerty_theme.images/footer.png') repeat-x left top #fcfcfc ;*/
+    text-align: center;
+}
+
+#portal-colophon, 
+#portal-colophon a {
+    color: #666 !important;
+}
+
+#portal-colophon .made-in {
+    padding-top: 10px;
+    color: #333;
+}
+
+#portal-colophon .made-in .redomino {
+    color: #DB001B !important;
+}
+
+
+@media screen and (max-width: 980px) {
+    #portal-columns {
+       background-image: none;
+    }
+    #portal-footer,
+    #visual-portal-wrapper,
+    #portal-header {
+        width: auto;
+    }
+    .slide-img {
+       display: none;
+    }
+    #portal-logo {
+       margin: 0;
+       width: 100%;
+       top: 60px;
+       text-align: center;
+    }
+    #portal-searchbox {
+        clear: none;
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    #visual-portal-wrapper-container {
+        background: url('../header-bg.png') repeat-x top left transparent;
+    }
+    #portal-columns {
+        margin-top: -20px
+    }
+    #portal-colophon {
+        background: transparent;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    #visual-portal-wrapper-container {
+        background: #fff;
+    }
+
+    #portal-top {
+        background-image: none;
+    }
+    #portal-logo {
+        top: 35px;
+    }
+
+    #portal-header {
+    }
+    #portal-globalnav {
+        margin-top: 90px;
+    }
+    #portal-globalnav li a,
+    #portal-globalnav li a:hover,
+    #portal-globalnav li.selected a,
+    #portal-globalnav li.selected a:hover,
+    #portal-globalnav li:first-child a,
+    #portal-globalnav li:first-child a:hover {
+        color: #fff !important;
+        background: #A80329  ; /* */
+        background: -moz-linear-gradient(top, #A80329 0%, #6E0019 100%); /* */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A80329), color-stop(100%,#6E0019)) ; /* */
+        background: -webkit-linear-gradient(top, #A80329 0%,#6E0019 100%) ; /* */
+        background: -o-linear-gradient(top, #A80329 0%,#6E0019 100%); /* */
+        background: -ms-linear-gradient(top, #A80329 0%,#6E0019 100%); /* */
+        background: linear-gradient(top, #A80329 0%,#6E0019 100%); /* */
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #portal-logo {
+        top: 25px;
+    }
+
+}
+
+

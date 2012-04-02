@@ -1,0 +1,7 @@
+<tal:block metal:define-macro="slide">
+    <div class="slide-img"
+         tal:attributes="style string:background:url(${here/slide/absolute_url}/image) no-repeat center #000;"
+         tal:condition="exists:here/slide">
+        <div class="slide-gradient"></div>
+    </div>
+</tal:block>

@@ -1,0 +1,9 @@
+#portal-top .slide-img {
+    margin-top: -9px !important;
+}
+
+#portal-searchbox {
+    margin-top: -60px !important;
+    position: relative;
+    top: 70px;
+}
