@@ -20,7 +20,7 @@ version = '1.2dev'
 
 setup(name='redomino.qwerty_theme',
       version=version,
-      description="An installable theme for Plone 3",
+      description="An installable theme for based on redomino.css3theme",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -29,10 +29,10 @@ setup(name='redomino.qwerty_theme',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='plone theme autoadaptative',
+      author="Andrea D'Este",
+      author_email='andrea.deste@redomino.com',
+      url='https://github.com/redomino/redomino.qwerty_theme',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['redomino'],
