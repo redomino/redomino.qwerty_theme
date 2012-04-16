@@ -6,26 +6,7 @@
   <interface
       interface=".interfaces.IRedominoThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="query_theme"
-      />
-
-  <!--CUSTOM FOOTER -->  
-  <browser:viewlet
-      name="plone.footer"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      template="footer.pt"
-      layer=".interfaces.IRedominoThemeSpecific"
-      permission="zope2.View"
-      />
-
-
-  <!--CUSTOM COLOPHON -->
-  <browser:viewlet
-      name="plone.colophon"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      template="colophon.pt"
-      layer=".interfaces.IRedominoThemeSpecific"
-      permission="zope2.View"
+      name="qwerty_theme"
       />
 
   <!-- Zope 3 browser resources -->

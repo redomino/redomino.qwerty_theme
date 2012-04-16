@@ -10,7 +10,7 @@
        persistence'.
        -->
 <object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="query_theme">
+   default_skin="qwerty_theme">
 
  <!-- This list registers the folders that are stored in the skins directory
       of your product (on the filesystem) as Filesystem Directory Views within
@@ -32,7 +32,7 @@
        Note: insert-before (and -after) accepts the value "*" which means
        "all".
        -->
- <skin-path name="query_theme" based-on="css3theme">
+ <skin-path name="qwerty_theme" based-on="css3theme">
   <layer name="redomino_qwerty_theme"
      insert-after="custom"/>
  </skin-path>

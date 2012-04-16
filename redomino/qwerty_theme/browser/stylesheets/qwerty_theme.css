@@ -54,6 +54,7 @@ div#portal-column-one.position-0 {
     background: -o-linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
     background: -ms-linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
     background: linear-gradient(top,  rgba(168,3,41,1) 0%,rgba(110,0,25,1) 160px,rgba(168,3,41,1) 160px,rgba(110,0,25,1) 210px,rgba(255,255,255,1) 210px);
+    min-height: 212px;
 }
 
 .no-cssgradients #visual-portal-wrapper-container {

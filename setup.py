@@ -40,6 +40,7 @@ setup(name='redomino.qwerty_theme',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'redomino.css3theme'
           # -*- Extra requirements: -*-
       ],
       entry_points="""

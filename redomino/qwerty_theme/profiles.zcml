@@ -5,18 +5,10 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="query_theme"
+      title="Qwerty theme"
       directory="profiles/default"
-      description='Extension profile for the "query_theme" Plone theme.'
+      description='Extension profile for the "qwerty theme" theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-
-  <genericsetup:importStep
-      name="redomino.qwerty_theme.various"
-      title="query_theme: miscellaneous import steps"
-      description="Various import steps that are not handled by GS import/export handlers."
-      handler="redomino.qwerty_theme.setuphandlers.setupVarious">
-    <depends name="skins"/>
-  </genericsetup:importStep>
 
 </configure>

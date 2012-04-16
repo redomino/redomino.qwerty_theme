@@ -4,22 +4,12 @@ Changelog
 1.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- polished package (product name, useless files ...) [sithmel]
 
 
 1.2 (2012-04-02)
 ----------------
 
-- Nothing changed yet.
+- First public release
 
 
-1.1 (2012-01-12)
-----------------
-
-- Nothing changed yet.
-
-
-1.0 (2012-01-12)
-----------------
-
-- First release
