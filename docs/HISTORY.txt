@@ -5,6 +5,7 @@ Changelog
 ----------------
 
 - polished package (product name, useless files ...) [sithmel]
+- fix css media type [sithmel]
 
 
 1.2 (2012-04-02)

@@ -26,7 +26,7 @@
 
  <stylesheet title=""
     id="++resource++redomino.qwerty_theme.stylesheets/qwerty_theme.css" conditionalcomment=""
-    media="screen" rel="stylesheet" rendering="import"
+    media="" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>
 
